@@ -1,0 +1,52 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<main id="main">
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+  <p id="description"><em>Thank you for taking the time to help us improve the platform</em></p>
+  <form id="survey-form">
+   <label id="name-label">Name:<br><input id="name" type="text" required placeholder="Jonas Kahnwald"><br>
+    <label id="email-label">Email:<br><input id="email"type="email" required placeholder="jonaskahnwald@gmail.com"><br>  
+    <label id="number-label">Age(optional):<br><input id="number"type="number"min="10" max="60"required placeholder="Age"><br> 
+    <label id="dropdown">Which option best describes your current role?<br>
+       <select name="select your current role" id="select your current role">
+         <option value="select your current role"selected disabled>Select your current role</option>
+       <option value="student">student</option>
+      <option value="Full Time Job">Full Time Job</option>
+         <option value="Full Time Learner">Full Time Learner</option>
+         <option value="Prefer not To say">Prefer not To say</option>
+         <option value="other">other</option></select><br>
+      <label id="name">Would you recommend freeCodeCamp to a friend?</label><br>
+       <input type="radio" id="r_Definitely" name="recommend" value="definitely">
+  <label for="definitely">Definitely</label><br>
+       <input type="radio" id="r_Maybe" name="recommend" value="Maybe">
+  <label for="Maybe">Maybe</label><br>
+       <input type="radio" id="r_Not sure" name="recommend" value="Not sure">
+  <label for="Not sure">Not sure</label><br>
+   <fieldset>
+      <label id="name">What would you like to see improved? (Check all that apply) </label></br>
+          <label for="c-fep"><input type="checkbox" name="improve-checks" id="c-fep" value="fep">Front-end Projects</label><br>
+          <label for="c-bep"><input type="checkbox" name="improve-checks" id="c-bep" value="bep">Back-end Projects</label><br>
+          <label for="c-datav"><input type="checkbox" name="improve-checks" id="c-datav" value="datav">Data Visualization</label><br>
+          <label for="c-chlgs"><input type="checkbox" name="improve-checks" id="c-chlgs" value="chlgs">Challenges</label><br>
+          <label for="c-osc"><input type="checkbox" name="improve-checks" id="c-osc" value="osc">Open Source Community</label><br>
+          <label for="c-ghr"><input type="checkbox" name="improve-checks" id="c-ghr" value="ghr">Gitter help rooms</label><br>
+          <label for="c-vid"><input type="checkbox" name="improve-checks" id="c-vid" value="vid">Videos</label><br>
+          <label for="c-meet"><input type="checkbox" name="improve-checks" id="c-meet" value="meet">City Meetups</label><br>
+          <label for="c-wiki"><input type="checkbox" name="improve-checks" id="c-wiki" value="wiki">Wiki</label><br>
+          <label for="c-forum"><input type="checkbox" name="improve-checks" id="c-forum" value="forum">
+Forum</label><br>
+       <label for="c-addcours"><input type="checkbox" name="improve-checks" id="c-addcours" value="addcours">Additional Courses</label><br>
+      </fieldset>
+      <label for="comments">Any Comments or Suggestions?</label><br>
+      <textarea style="height:50px;resize:vertical;" id="comments"placeholder="enter a comment"></textarea><br>
+      <button id="submit">Submit</button>
+      </form>
+   
+      
+      
+         
+      
+
+
+    
+    
+    
